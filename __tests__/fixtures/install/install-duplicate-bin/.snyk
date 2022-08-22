@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - eslint > debug:
+        patched: '2022-08-22T21:50:56.976Z'
+    - standard > eslint > debug:
+        patched: '2022-08-22T21:50:56.976Z'
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2022-08-22T21:50:56.976Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-08-22T21:50:56.976Z'
+    - eslint > table > lodash:
+        patched: '2022-08-22T21:50:56.976Z'
+    - standard > eslint > lodash:
+        patched: '2022-08-22T21:50:56.976Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2022-08-22T21:50:56.976Z'
+    - standard > eslint > table > lodash:
+        patched: '2022-08-22T21:50:56.976Z'
+  'npm:ms:20170412':
+    - eslint > debug > ms:
+        patched: '2022-08-22T21:50:56.976Z'
+    - standard > eslint > debug > ms:
+        patched: '2022-08-22T21:50:56.976Z'
